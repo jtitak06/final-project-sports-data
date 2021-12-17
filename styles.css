@@ -21,7 +21,7 @@
 
 .headline {
     position: absolute;
-    top: 20%;
+    top: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,18 +30,35 @@
     text-align: center;
     font-size: 3rem;
     color: #fff;
+    max-width: 383px;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 48px
 }
+
+@media screen and (max-width: 500px) {
+    .headline {
+        font-size: 42px;
+    }
+}
+
+
 
 .icon-wrapper {
     display: grid;
     position: absolute;
-    top: 60%;
+    top: 55%;
     grid-template-columns: auto auto;
     grid-gap: 40px;
     left: 0;
     right: 0;
     justify-content: center;
     align-items: center;
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18.75px;
 }
 
 .link-title {
@@ -70,4 +87,36 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 767px) {
+    .vid-bg {
+        display: none;
+    }
+    .homepage {
+        background: url("./BB-Background.png");
+        background-position-x: center;
+    }
+}
+
+@media screen and (max-height: 450px) {
+    .vid-bg {
+        display: none;
+    }
+    .homepage {
+        background: url("./BB-Background-Sideways.png");
+    }
+    .headline {
+        max-width: none;
+        font-size: 42px;
+    }
+    .icon-wrapper {
+        display: flex;
+        flex-direction: row;
+    }
 }
