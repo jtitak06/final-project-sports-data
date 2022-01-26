@@ -1,4 +1,4 @@
-# Tic-Tac-Toe
+# Sports Data
 
 ### Overview
 
@@ -12,8 +12,8 @@ This project is a responsive sports data application page built for both mobile 
 
 **Links**
 
-* [Link to project](https://jtitak06.github.io/tic-tac-toe/)
-* [Github repository](https://github.com/jtitak06/tic-tac-toe)
+* [Link to project](https://jtitak06.github.io/final-project-sports-data/)
+* [Github repository](https://github.com/jtitak06/final-project-sports-data)
 * [MLB API](https://github.com/jtitak06/mlb-data)
 * [NBA API](https://github.com/jtitak06/nba-data)
 * [NFL API](https://github.com/jtitak06/nfl-data)
