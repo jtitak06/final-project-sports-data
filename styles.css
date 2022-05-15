@@ -20,18 +20,14 @@
 }
 
 .headline {
-    position: absolute;
-    top: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
-    left: 0;
-    right: 0;
     text-align: center;
     font-size: 3rem;
     color: #fff;
-    max-width: 383px;
-    margin: auto;
+    width: 383px;
+    margin: 10vw auto;
     font-family: 'Times New Roman', Times, serif;
     font-size: 48px
 }
